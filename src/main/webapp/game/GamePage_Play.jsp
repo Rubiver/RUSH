@@ -289,7 +289,6 @@ a{
 		$("#info").css("display","none");
         $(".btn").on("click",function(){
             // $(".categories").text();
-            console.log("");
         });
         
         $("#btnradio1").on("click",function(){
@@ -312,7 +311,6 @@ a{
         	      },
         	      type:"post"
         	    }).done(function (res){
-        	      console.log(res);
         	    });
         });
     </script>
